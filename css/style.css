@@ -1,15 +1,19 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Global styles */
 html {
   font-size: 62.5%;
 }
 body {
   background: #aaaaaa;
 }
+
+/* Utility Classes */
 .container {
   max-width: 1280px;
   margin: 0 auto;
