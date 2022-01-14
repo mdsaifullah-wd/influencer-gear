@@ -6,6 +6,7 @@
 }
 /* Variables */
 :root {
+  --primary-color: #e02c6d;
   --text-color: #3a3a3a;
 }
 
@@ -36,6 +37,16 @@ a {
 }
 .container--small {
   max-width: 768px;
+}
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 1rem 2.4rem;
+  border: 0;
+  border-radius: 4.1rem;
+  outline: 0;
 }
 
 /* Header Section */
@@ -73,4 +84,40 @@ a {
 }
 .nav-menu ul li .fas:last-child {
   padding: 1rem 0 1rem 1rem;
+}
+
+/* Showcase Section */
+.showcase {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.showcase__info,
+.showcase__image {
+  flex: 1;
+}
+.showcase__info__title {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 7rem;
+}
+.showcase__info__text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 1.6rem 0;
+}
+.showcase__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.showcase__image__foreground {
+  width: 75%;
+  z-index: 1;
+}
+.showcase__image__background {
+  position: absolute;
 }
