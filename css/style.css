@@ -175,6 +175,7 @@ a {
 }
 .showcase__wrapper__image__background {
   position: absolute;
+  width: 75%;
 }
 
 /* --------------------------------------------------
