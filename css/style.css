@@ -9,6 +9,7 @@
   --primary-color: #e02c6d;
   --secondary-color: #0a0826;
   --text-color: #3a3a3a;
+  --main-header-height: 15rem;
 }
 
 /* Global styles */
@@ -70,7 +71,7 @@ a {
 
 /* Header Section */
 .main-header {
-  height: 10rem;
+  height: var(--main-header-height);
   display: flex;
   flex-direction: column;
   justify-content: center;
