@@ -511,6 +511,9 @@ a {
     grid-template-columns: repeat(1, 1fr);
   }
   /* Showcase Section */
+  .showcase {
+    height: auto;
+  }
   .showcase__wrapper {
     flex-direction: column;
     height: auto;
@@ -562,6 +565,15 @@ a {
 }
 /* Extra Small Mobile Devices */
 @media only screen and (max-width: 400px) {
+  /* Header Section */
+  .logo h1 {
+    font-size: 2rem;
+  }
+  /* Showcase Section */
+  .showcase__wrapper__info__title {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
   /* Our Blog Section */
   .our-blog__thumbnails {
     grid-template-columns: repeat(1, 1fr);
