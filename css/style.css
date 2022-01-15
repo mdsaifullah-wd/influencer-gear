@@ -238,6 +238,20 @@ a {
   color: #787885;
   letter-spacing: 1.8%;
 }
+.popular-collection__see-more {
+  text-align: right;
+  margin-top: 5rem;
+}
+.popular-collection__see-more__link {
+  display: inline-block;
+  padding: 1rem;
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.popular-collection__see-more__link:hover {
+  text-decoration: underline;
+}
 
 /* Featured Product Section */
 .featured-product {
