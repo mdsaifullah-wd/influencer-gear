@@ -321,7 +321,7 @@ a {
 .our-blog__thumbnails__card__details__description {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
-  line-height: 2.6rem;
+  line-height: 1.6;
   font-weight: 300;
 }
 /* Footer Section */
@@ -368,11 +368,67 @@ a {
 }
 
 /* Media queries */
-@media only screen and (min-width: 689px) and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
   .popular-collection__items {
     grid-template-columns: repeat(2, 1fr);
   }
   .our-blog {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 688px) {
+  .popular-collection__items,
+  .our-blog {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .showcase {
+    flex-direction: column;
+    height: auto;
+  }
+  .showcase__info {
+    order: 2;
+  }
+  .showcase__image {
+    padding: 10rem 0;
+  }
+  .popular-collection__items__card__title {
+    font-size: 3.6rem;
+  }
+  .popular-collection__items__card__price {
+    font-size: 3.2rem;
+  }
+  .popular-collection__items__card__ratings__star {
+    font-size: 1.6rem;
+  }
+  .popular-collection__items__card__ratings__number {
+    font-size: 1.8rem;
+  }
+  .featured-product {
+    flex-direction: column;
+  }
+  .popular-collection__items__card__details {
+    font-size: 1.6rem;
+  }
+  .featured-product__image-wrapper {
+    width: 80%;
+    margin-bottom: 5rem;
+  }
+  .featured-product__info-wrapper {
+    width: 90%;
+  }
+  .our-blog__thumbnails__card__details__category {
+    font-size: 1.4rem;
+  }
+  .our-blog__thumbnails__card__details__title {
+    font-size: 1.6rem;
+  }
+  .our-blog__thumbnails__card__details__description {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .our-blog__thumbnails {
     grid-template-columns: repeat(1, 1fr);
   }
 }
