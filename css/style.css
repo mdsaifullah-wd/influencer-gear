@@ -232,6 +232,7 @@ a {
 .featured-product {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .featured-product__image-wrapper {
   width: 37%;
@@ -364,4 +365,14 @@ a {
 }
 .footer__info__social__links__icon {
   font-size: 1.7rem;
+}
+
+/* Media queries */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .popular-collection__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .our-blog {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
