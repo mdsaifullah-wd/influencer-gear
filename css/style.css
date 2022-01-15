@@ -7,6 +7,7 @@
 /* Variables */
 :root {
   --primary-color: #e02c6d;
+  --secondary-color: #0a0826;
   --text-color: #3a3a3a;
 }
 
@@ -323,7 +324,7 @@ a {
 }
 /* Footer Section */
 .footer {
-  background: #0a0826;
+  background: var(--secondary-color);
   color: #fff;
   display: flex;
   justify-content: center;
