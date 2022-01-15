@@ -188,11 +188,9 @@ a {
 }
 .popular-collection__items__card__image-wrapper {
   border-radius: 5px;
-  height: 57%;
 }
 .popular-collection__items__card__image-wrapper__image {
   width: 100%;
-  height: 100%;
 }
 .popular-collection__items__card__title {
   font-size: 2.8rem;
