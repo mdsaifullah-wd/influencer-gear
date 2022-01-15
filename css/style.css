@@ -45,8 +45,10 @@ a {
   font-weight: 700;
   padding: 1rem 2.4rem;
   border: 0;
-  border-radius: 4.1rem;
   outline: 0;
+}
+.btn--rounded {
+  border-radius: 4.1rem;
 }
 .section-title {
   font-size: 2.8rem;
@@ -209,4 +211,35 @@ a {
   font-weight: 700;
   color: #787885;
   letter-spacing: 1.8%;
+}
+
+/* Featured Product Section */
+.featured-product {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.featured-product__image-wrapper {
+  width: 37%;
+}
+.featured-product__image-wrapper__image {
+  width: 100%;
+}
+.featured-product__info-wrapper {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.featured-product__info-wrapper__info__title {
+  font-size: 3.4rem;
+  font-weight: 600;
+  color: #0a0826;
+}
+.featured-product__info-wrapper__info__details {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  font-weight: 700;
+  color: #6c6c6c;
+  margin: 1.6rem 0;
 }
